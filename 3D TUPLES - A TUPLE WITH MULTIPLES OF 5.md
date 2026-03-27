@@ -4,7 +4,7 @@ TUPLES - A TUPLE WITH MULTIPLES OF 9**
 **AIM** 
 
 To create a tuple of multiples of 9 up to N and print the tuple and its length.
-
+ 
 **ALGORITHM**
 
 1. Start the program.
