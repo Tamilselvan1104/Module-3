@@ -1,43 +1,38 @@
-**Exp.No:3d  
-TUPLES - A TUPLE WITH MULTIPLES OF 9**
+**Exp.No:3e
+SEB - STRING SPLITTING**
+
 
 **AIM** 
 
-To create a tuple of multiples of 9 up to N and print the tuple and its length.
- 
+To write a Python function that splits an email ID string into two parts using the "@" symbol.
+
+
 **ALGORITHM**
 
 1. Start the program.
-2. Accept input from the user for the value of N.
-3. Initialize an empty list a.
-4. Loop from 1 to N - 1:
-  For each number i, check if it is divisible by 9 using i % 9 == 0.
-  If true, append i to the list a.
-5. Convert the list a into a tuple b.
-6. Print the tuple b.
-7. Print the length of the tuple using len(b).
-8. End the program.
+2. Define a function named splitstring that accepts one argument a.
+3. Inside the function, use the built-in split('@') method to split the string at the "@" symbol.
+4. Store the result in a variable x.
+5. Print the resulting list x.
+6. Call the function with a test email ID.
+7. End the program.
 
 **PROGRAM**
 
 **212223060265 - SMRITHI K**
 
-n=eval(input())
-a=[]
-for i in range(1,n):
-    if i%9==0:
-        a.append(i)
-b=tuple(a)
-print(b)
-print("Length of the tuple is",len(a))
-
+def splitstring(a):
+    x=a.split('@')
+    print(x)
 
 
 **OUTPUT**
 
-![image](https://github.com/user-attachments/assets/8af2f190-019a-4d42-93b2-177d7b642ca3)
+![image](https://github.com/user-attachments/assets/c542ee9a-566e-4b4d-8000-83adcd7862a4)
 
 
 **RESULT**
 
-Thus the program to create a tuple of multiples of 9 up to N and print the tuple and its length has been implemented and executed successfully.
+Thus the program that splits an email ID string into two parts using the "@" symbol has been implemented and executed successfully.
+
+
